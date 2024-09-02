@@ -1,0 +1,27 @@
+{
+  "name": "musicfestival",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Webpage using SASS ",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch src/scss:build/css",
+    "css": "gulp css",
+    "dev": "gulp dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isalamajor/MusicFestival.git"
+  },
+  "author": "Isabel H Barrio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/isalamajor/MusicFestival/issues"
+  },
+  "homepage": "https://github.com/isalamajor/MusicFestival#readme",
+  "devDependencies": {
+    "gulp": "^5.0.0",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.77.8"
+  }
+}
